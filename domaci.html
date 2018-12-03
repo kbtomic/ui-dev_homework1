@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitHub login</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+a{
+    text-decoration: none;
+}
+
+div{
+    width: 240px;
+    
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:grey;
+    font-size: 17px;
+}
+.small{
+    font-size: 12px;
+}
+.okrugli
+{
+    border-radius:8px;
+}
+p
+{
+    font-size:13px;
+    color:grey;
+}
+.centriraj{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Username</h1>
+    <form action="/action_page.php">
+    <input class="okrugli" type="text" name="username" placeholder="Pick a username"><br>
+    <h1>Email</h1>
+    <input class="okrugli" type="text" name="email" placeholder="you@example.com"><br>
+    <h1>Password</h1>
+    <input class="okrugli" type="text" name="Password" placeholder="Create a password" minlength="8" maxlength="15"><br>
+       
+    </form> 
+      <p class="small">Make sure it's more than 15 characters, or at least 8 characters, including a number, and a lowercase letter.</p>
+   
+      <button class="button">Sign up for GitHub</button>
+      
+      <p class="centriraj">By clicking “Sign up for GitHub”, you agree to our <a href="https://help.github.com/terms">terms of service</a> and <a href="https://help.github.com/privacy">privacy statement</a>. We'll occasionally send you account related emails.</p>
+   
+    </div>
+</body>
+</html>
